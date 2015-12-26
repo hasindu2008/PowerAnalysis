@@ -1,0 +1,12 @@
+>>> Warning 224 "C:\Program Files (x86)\PICC\drivers\usb_cdc.h" Line 166(9,137): #warning   usb_cdc_putc() needs to be improved to work if ISR is disabled (or if called inside an ISR).  See above comments for workaround
+>>> Warning 203 "C:\Program Files (x86)\PICC\drivers\pic18_usb.c" Line 619(1,1): Condition always TRUE
+>>> Warning 214 "main.c" Line 230(1,1): Operator precedance rules may not be as intended, use () to clarify
+>>> Warning 204 "main.c" Line 233(1,1): Condition always FALSE
+>>> Warning 203 "main.c" Line 648(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 681(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 726(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_token_reset)
+>>> Warning 216 "main.c" Line 726(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_cdc_get_discard)
+>>> Warning 216 "main.c" Line 726(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_tbe)
+>>> Warning 216 "main.c" Line 726(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_cdc_flush_out_buffer)
+      Memory usage:   ROM=25%      RAM=37% - 39%
+      0 Errors,  10 Warnings.

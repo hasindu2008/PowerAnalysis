@@ -1,0 +1,29 @@
+ÀÄ1
+   ÀÄMAIN  0/452  Ram=88
+      ÃÄ??0??
+      ÃÄsetkey  0/44  Ram=3
+      ÃÄconvertdigit  0/158  Ram=2
+      ³  ÀÄ@goto11514  0/72  Ram=0
+      ÃÄconvertdigit  0/158  Ram=2
+      ³  ÀÄ@goto11514  0/72  Ram=0
+      ÃÄ@PRINTF_X_9600_31766_31767  0/70  Ram=2
+      ÃÄKeyExpansion  0/660  Ram=10
+      ³  ÃÄ@const351  0/272  Ram=0
+      ³  ÃÄ@const351  0/272  Ram=0
+      ³  ÃÄ@const351  0/272  Ram=0
+      ³  ÃÄ@const351  0/272  Ram=0
+      ³  ÀÄ@const353  0/272  Ram=0
+      ÃÄCipher  0/278  Ram=7
+      ³  ÃÄAddRoundKey  0/126  Ram=7
+      ³  ÃÄSubBytes  0/124  Ram=6
+      ³  ³  ÀÄ@const351  0/272  Ram=0
+      ³  ÃÄShiftRows  0/66  Ram=1
+      ³  ÃÄMixColumns  0/424  Ram=7
+      ³  ÃÄAddRoundKey  0/126  Ram=7
+      ³  ÃÄSubBytes  0/124  Ram=6
+      ³  ³  ÀÄ@const351  0/272  Ram=0
+      ³  ÃÄShiftRows  0/66  Ram=1
+      ³  ÀÄAddRoundKey  0/126  Ram=7
+      ÃÄ@delay_ms1  0/42  Ram=1
+      ÃÄ@PRINTF_X_9600_31766_31767  0/70  Ram=2
+      ÀÄ@delay_ms1  0/42  Ram=1

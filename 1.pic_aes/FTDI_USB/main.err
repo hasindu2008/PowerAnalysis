@@ -1,0 +1,6 @@
+>>> Warning 214 "main.c" Line 216(1,1): Operator precedance rules may not be as intended, use () to clarify
+>>> Warning 204 "main.c" Line 219(1,1): Condition always FALSE
+>>> Warning 203 "main.c" Line 629(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 659(1,1): Condition always TRUE
+      Memory usage:   ROM=9%      RAM=17% - 17%
+      0 Errors,  4 Warnings.

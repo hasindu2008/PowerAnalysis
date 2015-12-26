@@ -1,0 +1,25 @@
+[PROJECT]
+Target=C:\Users\USER\OneDrive\CPA\AES procedure\replicate_for_git\1.pic_aes\Inbuilt_USB\main.hex
+Development_Mode=
+Processor_Text=PIC18F2550
+ToolSuite=CCS
+Processor=0x2550
+[C:\Users\USER\OneDrive\CPA\AES procedure\replicate_for_git\1.pic_aes\Inbuilt_USB\main]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Users\USER\OneDrive\CPA\AES procedure\replicate_for_git\1.pic_aes\Inbuilt_USB\main.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\Users\USER\OneDrive\CPA\AES procedure\replicate_for_git\1.pic_aes\Inbuilt_USB\main
+[Opened Files]
+1=main.c
+2=
+3=

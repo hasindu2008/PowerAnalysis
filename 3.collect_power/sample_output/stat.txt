@@ -1,0 +1,4 @@
+Sampling points in wave: 100000
+Number of traces: 200
+Recorded time: 12/26/15 14:14:40 
+Time elapsed: 375.626664 
