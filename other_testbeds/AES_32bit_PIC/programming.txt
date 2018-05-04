@@ -1,0 +1,16 @@
+Programming using Pickit 3
+
+1. Connect the microcoontrolelr as shown in diagrm (circuitftdi.pdf)
+
+2. Disconnect ~MCLR (pin 1) in microcontroller from voltage source
+
+3. Connect to pickit 3 as;
+
+Vpp (pin 1) in pickit -> ~MCLR (pin 1) in microcontroller
+Vss (pin 3) in pickit -> common ground
+PGD (pin 4) in pickit -> PGED1 (pin 4) in microcontroller
+PGC (pin 5) in pickit -> PGEC1 (pin 5) in microcontroller
+
+4. Program the hex file using MPLAB IPE 
+
+5. Reconnect ~MCLR (pin 1) in microcontroller to voltage source

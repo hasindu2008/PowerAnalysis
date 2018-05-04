@@ -1,0 +1,11 @@
+Init right half key: 08 07 06 05 04 03 02 01 
+Left half key after ROR 8 : 03 04 03 02 05 01 01 02 
+Left half key after add : 0B 0B 09 07 09 04 03 03 
+Right half key after ROL3 :40 38 30 28 20 18 10 08 
+Right half key  after XOR B (round key): 4B 33 39 2F 29 1C 13 0B 
+
+going back
+Right half key  before XOR B : 0B 0B 09 07 09 04 03 03 
+Left half key before addition : 03 04 03 02 05 01 01 02 
+Left half key  before ROL : 04 03 02 05 01 01 02 03 
+04 03 02 05 01 01 02 03 

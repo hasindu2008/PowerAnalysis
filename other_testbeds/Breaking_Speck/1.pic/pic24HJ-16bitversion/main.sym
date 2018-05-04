@@ -1,0 +1,142 @@
+W0      @SCRATCH
+W0L     _RETURN_
+W0 -W1  @READ_PROGRAM_MEMORY.P1
+W0 -W3  @I64TOF48.P2
+W0      @PRINTF_X_9600_5720_5721.P3
+W0 -W1  @DIV3232B.P4
+W0      @delay_ms1.P5
+W0 -W2  @ADDFF48.P6
+W0 -W3  @I64TOF64.P7
+W0 -W1  @MULS3232.P8
+W0 -W3  @DIVFF64.P9
+W0 -W2  @MULFF48.P10
+W0 -W1  @MUL3232.P11
+W0 -W3  @ADDFF64.P12
+W0 -W1  @ADDFF.P13
+W0 -W1  @MULFF.P14
+W0 -W2  @DIVFF48.P15
+W0 -W1  @DIVFF.P16
+W0 -W3  @MULFF64.P17
+W0 -W1  @DIVS3232A.P18
+W0      @delay_us1.P19
+W0      @ITOF.P20
+W1      @SCRATCH
+W1      @WRITE_PACKED_MEMORY.P1
+W1      @PRINTF_X_9600_5720_5721.P2
+W1      @READ_PACKED_MEMORY.P3
+W2      @READ_PROGRAM_MEMORY.P1
+W2 -W3  @DIVS3232A.P2
+W2      @WRITE_PACKED_MEMORY.P3
+W2 -W3  @ADDFF.P4
+W2      @READ_PACKED_MEMORY.P5
+W2 -W3  @DIV3232B.P6
+W2 -W3  @MULFF.P7
+W2 -W3  @MUL3232.P8
+W2 -W3  @DIVFF.P9
+W2 -W3  @MULS3232.P10
+W3      @WRITE_PACKED_MEMORY.P1
+W3      @READ_PACKED_MEMORY.P2
+W3 -W5  @MULFF48.P3
+W3      @READ_PROGRAM_MEMORY.P4
+W3 -W5  @ADDFF48.P5
+W3 -W5  @DIVFF48.P6
+W4 -W7  @MULFF64.P1
+W4 -W7  @DIVFF64.P2
+W4 -W7  @ADDFF64.P3
+800-801 strtok.save
+802-805 _Randseed
+806-815 pt
+816-825 ct
+826-835 K
+836-83D ans
+83E-85E MAIN.buffer
+85F     MAIN.temp
+860-861 MAIN.hex
+862-863 MAIN.i
+864-873 MAIN.block
+874-87B encrypt.i
+874-875 setkey.i
+878-879 convertback.ct
+878-879 convert.block
+87A-87B convert.ct
+87A-87B convertback.block
+87A     convertdigit.digit
+87B     convertdigit.value
+87C-883 encrypt.B
+884-88B encrypt.A
+88C-893 _xor.x
+88C-893 _add.x
+88C-893 ROL.x
+88C-893 ROR.x
+894-89B _add.y
+894-89B ROL.r
+894-89B ROR.r
+894-89B _xor.y
+89C-8A3 ROR.r1
+89C-8A3 ROL.r1
+8A4-8AB ROR.r2
+8A4-8AB ROL.r2
+8BC-8C3 _or.x
+8C4-8CB _or.y
+8C6-8CD _shiftR.x
+8C6-8CD _shiftL.x
+8CE-8D5 _shiftR.r
+8CE-8D5 _shiftL.r
+1380-13FF Stack
+
+ROM Allocation:
+0576  _shiftR
+059A  _shiftL
+05BE  _or
+068E  _add
+06AE  _xor
+05E0  ROR
+06D0  ROL
+077E  encrypt
+09F4  convert
+0308  convertback
+02D2  @PRINTF_X_9600_5720_5721
+0222  convertdigit
+0200  setkey
+0CB6  MAIN
+0CB6  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    J:\onedrive_sync\CPA\Speck procedure\1.pic\pic24HJ-16bitversion\
+
+Project Files:
+    main.c
+    C:\Program Files (x86)\PICC\devices\24HJ32GP302.h
+    C:\Program Files (x86)\PICC\drivers\stdlib.h
+    C:\Program Files (x86)\PICC\drivers\stddef.h
+    C:\Program Files (x86)\PICC\drivers\string.h
+    C:\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    J:\onedrive_sync\CPA\Speck procedure\1.pic\pic24HJ-16bitversion\main (main)
+
+Compiler Settings:
+    Processor:      PIC24HJ32GP302
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      0
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta

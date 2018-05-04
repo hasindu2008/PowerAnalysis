@@ -1,0 +1,6 @@
+A
+matlab : Elapsed time is 3181.070652 seconds
+cuda : Time spent for CUDA operation : 60.2362670898
+
+
+B

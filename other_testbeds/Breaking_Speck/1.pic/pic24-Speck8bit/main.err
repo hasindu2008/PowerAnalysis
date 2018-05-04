@@ -1,0 +1,5 @@
+>>> Warning 203 "main.c" Line 352(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 393(1,1): Condition always TRUE
+>>> Warning 202 "main.c" Line 319(9,10): Variable never used:   i
+      Memory usage:   ROM=12%      RAM=3% - 4%
+      0 Errors,  3 Warnings.

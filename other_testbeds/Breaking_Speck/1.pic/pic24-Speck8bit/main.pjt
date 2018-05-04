@@ -1,0 +1,26 @@
+[PROJECT]
+Target=F:\results for report\pic24-Speck8bit\main.hex
+Development_Mode=
+Processor_Text=PIC24FJ32GA002
+ToolSuite=CCS
+Processor=0x006D
+[F:\results for report\pic24-Speck8bit\main]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=F:\results for report\pic24-Speck8bit\main.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=F:\results for report\pic24-Speck8bit\main
+[Opened Files]
+1=main.c
+2=C:\Program Files (x86)\PICC\devices\24FJ32GA002.h
+3=
+4=

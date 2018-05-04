@@ -1,0 +1,167 @@
+W0      @SCRATCH
+W0L     _RETURN_
+W0 -W3  @MULFF64.P1
+W0 -W1  @READ_PROGRAM_MEMORY.P2
+W0 -W1  @ADDFF.P3
+W0 -W3  @I64TOF64.P4
+W0      @PRINTF_X_9600_5720_5721.P5
+W0 -W1  @DIV3232B.P6
+W0 -W3  @DIVFF64.P7
+W0 -W1  @DIVS3232A.P8
+W0 -W3  @ADDFF64.P9
+W0 -W1  @MULFF.P10
+W0 -W3  @I64TOF48.P11
+W0      @ITOF.P12
+W0 -W2  @DIVFF48.P13
+W0 -W2  @MULFF48.P14
+W0 -W2  @ADDFF48.P15
+W0 -W1  @DIVFF.P16
+W0      @delay_us1.P17
+W0 -W1  @MUL3232.P18
+W0 -W1  @MULS3232.P19
+W0      @delay_ms1.P20
+W1      @SCRATCH
+W1      @READ_PACKED_MEMORY.P1
+W1      @PRINTF_X_9600_5720_5721.P2
+W1      @WRITE_PACKED_MEMORY.P3
+W2 -W3  @MULFF.P1
+W2      @READ_PROGRAM_MEMORY.P2
+W2 -W3  @ADDFF.P3
+W2 -W3  @DIVFF.P4
+W2 -W3  @MULS3232.P5
+W2      @READ_PACKED_MEMORY.P6
+W2 -W3  @MUL3232.P7
+W2 -W3  @DIV3232B.P8
+W2 -W3  @DIVS3232A.P9
+W2      @WRITE_PACKED_MEMORY.P10
+W3      @WRITE_PACKED_MEMORY.P1
+W3      @READ_PROGRAM_MEMORY.P2
+W3      @READ_PACKED_MEMORY.P3
+W3 -W5  @ADDFF48.P4
+W3 -W5  @MULFF48.P5
+W3 -W5  @DIVFF48.P6
+W4 -W7  @ADDFF64.P1
+W4 -W7  @MULFF64.P2
+W4 -W7  @DIVFF64.P3
+800-801 strtok.save
+802-805 _Randseed
+806-80D pt0
+80E-815 pt1
+816-81D ct0
+81E-825 ct1
+826-82D K0
+82E-835 K1
+836-856 MAIN.buffer
+857     MAIN.temp
+858-859 MAIN.hex
+85A-85B MAIN.i
+85C-85D setkey.i
+85C     encrypt.i
+85E-865 encrypt.ans
+862     convertdigit.digit
+863     convertdigit.value
+866-86D encrypt.B
+86E-875 encrypt.A
+876-877 j
+878-87F index
+880-881 ROR.ans
+880-881 _add.ans
+880-881 _xor.ans
+880-881 ROL.ans
+880-881 copy.ans
+882-883 _xor.x
+882-883 ROL.x
+882-883 copy.x
+882-883 _add.x
+882-883 ROR.x
+884-885 _add.y
+884-885 copy.i
+884-885 _xor.y
+884     ROL.r
+884     ROR.r
+886-88D ROL.r1
+886-887 _xor.i
+886-88D ROR.r1
+886-887 _add.i
+888     _add.q
+88A-88B add
+88E-895 ROR.r2
+88E-895 ROL.r2
+89C-89D _or.ans
+89E-89F _shiftR.ans
+89E-89F _shiftL.ans
+89E-89F _or.x
+8A0-8A1 _shiftR.x
+8A0-8A1 _shiftL.x
+8A0-8A1 _or.y
+8A2-8A3 _or.i
+8A2     _shiftR.r
+8A2     _shiftL.r
+8A3     _shiftR.i
+8A3     _shiftL.i
+8A4     _shiftL.shiftbytes
+8A4     _shiftR.shiftbytes
+8A5     _shiftL.shiftbits
+8A5     _shiftR.shiftbits
+8A6-8AD _shiftR.temp
+8A6-8AD _shiftL.temp
+2780-27FF Stack
+
+ROM Allocation:
+08D8  @delay_ms1
+0242  @PRINTF_X_9600_5720_5721
+0614  copy
+0328  _shiftR
+0458  _shiftL
+05A4  _or
+0632  _add
+068A  _xor
+05D4  ROR
+06D4  ROL
+0714  encrypt
+0278  convertdigit
+0200  setkey
+08E8  MAIN
+08E8  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+0348  MY
+0362  MY1
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    F:\results for report\pic24-Speck8bit\
+
+Project Files:
+    main.c
+    C:\Program Files (x86)\PICC\devices\24FJ32GA002.h
+    C:\Program Files (x86)\PICC\drivers\stdlib.h
+    C:\Program Files (x86)\PICC\drivers\stddef.h
+    C:\Program Files (x86)\PICC\drivers\string.h
+    C:\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    F:\results for report\pic24-Speck8bit\main (main)
+
+Compiler Settings:
+    Processor:      PIC24FJ32GA002
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      0
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta

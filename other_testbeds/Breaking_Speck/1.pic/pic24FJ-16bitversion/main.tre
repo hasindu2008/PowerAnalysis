@@ -1,0 +1,33 @@
+ÀÄ1
+   ÀÄMAIN  0/356  Ram=59
+      ÃÄ??0??
+      ÃÄsetkey  0/34  Ram=2
+      ÃÄconvertdigit  0/176  Ram=2
+      ÃÄconvertdigit  0/176  Ram=2
+      ÃÄ@PRINTF_X_9600_5720_5721  0/54  Ram=2
+      ÃÄconvertback  0/622  Ram=23
+      ÃÄencrypt  0/666  Ram=24
+      ³  ÃÄROR  0/174  Ram=25
+      ³  ³  ÃÄ_shiftR  0/36  Ram=16
+      ³  ³  ÃÄ_shiftL  0/36  Ram=16
+      ³  ³  ÀÄ_or  0/34  Ram=16
+      ³  ÃÄ_add  0/32  Ram=16
+      ³  ÃÄ_xor  0/34  Ram=16
+      ³  ÃÄROL  0/174  Ram=25
+      ³  ³  ÃÄ_shiftL  0/36  Ram=16
+      ³  ³  ÃÄ_shiftR  0/36  Ram=16
+      ³  ³  ÀÄ_or  0/34  Ram=16
+      ³  ÃÄ_xor  0/34  Ram=16
+      ³  ÃÄROR  0/174  Ram=25
+      ³  ³  ÃÄ_shiftR  0/36  Ram=16
+      ³  ³  ÃÄ_shiftL  0/36  Ram=16
+      ³  ³  ÀÄ_or  0/34  Ram=16
+      ³  ÃÄ_add  0/32  Ram=16
+      ³  ÃÄ_xor  0/34  Ram=16
+      ³  ÃÄROL  0/174  Ram=25
+      ³  ³  ÃÄ_shiftL  0/36  Ram=16
+      ³  ³  ÃÄ_shiftR  0/36  Ram=16
+      ³  ³  ÀÄ_or  0/34  Ram=16
+      ³  ÀÄ_xor  0/34  Ram=16
+      ÃÄconvert  0/706  Ram=15
+      ÀÄ@PRINTF_X_9600_5720_5721  0/54  Ram=2

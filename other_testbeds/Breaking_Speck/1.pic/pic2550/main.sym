@@ -1,0 +1,175 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 strtok.save
+006-009 _Randseed
+00A     addr
+00B-012 pt0
+013-01A pt1
+01B-022 ct0
+023-02A ct1
+02B-032 K0
+033-03A K1
+03B-05B MAIN.buffer
+05C-05D MAIN.hex
+05E     MAIN.i
+05F     MAIN.temp
+060     encrypt.i
+060     setkey.i
+060     MAIN.@SCRATCH1
+061     @PRINTF_X_9600_31766_31767.P1
+061-068 encrypt.ans
+061     MAIN.@SCRATCH2
+062     @PRINTF_X_9600_31766_31767.P1
+062     MAIN.@SCRATCH3
+063     convertdigit.digit
+064     convertdigit.value
+069-070 encrypt.B
+071-078 encrypt.A
+079     j
+07A-081 index
+082     @delay_ms1.P1
+082-083 _xor.ans
+082-083 ROL.ans
+082-083 _add.ans
+082-083 copy.ans
+082-083 ROR.ans
+082     encrypt.@SCRATCH1
+083     encrypt.@SCRATCH2
+084-085 ROR.x
+084-085 copy.x
+084-085 _xor.x
+084-085 ROL.x
+084-085 _add.x
+084     encrypt.@SCRATCH3
+086-087 _add.y
+086     copy.i
+086     ROR.r
+086-087 _xor.y
+086     ROL.r
+087-08E ROL.r1
+087-08E ROR.r1
+087     copy.@SCRATCH1
+088     _xor.i
+088     _add.i
+088     copy.@SCRATCH2
+089     _add.q
+089     copy.@SCRATCH3
+089     _xor.@SCRATCH1
+08A-08D add
+08A     _xor.@SCRATCH2
+08B     _xor.@SCRATCH3
+08E     _add.@SCRATCH1
+08F-096 ROL.r2
+08F-096 ROR.r2
+08F     _add.@SCRATCH2
+090     _add.@SCRATCH3
+091     _add.@SCRATCH4
+092     _add.@SCRATCH5
+097-098 _or.ans
+097     ROR.@SCRATCH1
+097     ROL.@SCRATCH1
+098-099 _shiftL.ans
+098-099 _shiftR.ans
+099-09A _or.x
+09A-09B _shiftR.x
+09A-09B _shiftL.x
+09B-09C _or.y
+09C     _shiftL.r
+09C     _shiftR.r
+09D     _shiftR.i
+09D     _shiftL.i
+09D     _or.i
+09E     _shiftL.shiftbytes
+09E     _shiftR.shiftbytes
+09E     _or.@SCRATCH1
+09F     _shiftR.shiftbits
+09F     _shiftL.shiftbits
+09F     _or.@SCRATCH2
+0A0-0A7 _shiftL.temp
+0A0-0A7 _shiftR.temp
+0A0     _or.@SCRATCH3
+0A8     _shiftR.@SCRATCH1
+0A8     _shiftL.@SCRATCH1
+0A9     _shiftR.@SCRATCH2
+0A9     _shiftL.@SCRATCH2
+0AA     _shiftR.@SCRATCH3
+0AA     _shiftL.@SCRATCH3
+0AB     _shiftR.@SCRATCH4
+0AB     _shiftL.@SCRATCH4
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+063C  @delay_ms1
+04DA  copy
+0146  _shiftR
+02B6  _shiftL
+0444  _or
+0516  _add
+05A6  _xor
+0492  ROR
+05F4  ROL
+0664  encrypt
+0088  convertdigit
+00FE  @goto11485
+0004  setkey
+08D2  MAIN
+0046  @PRINTF_X_9600_31766_31767
+08D2  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\USER\OneDrive\CPA\Speck procedure\1.pic\pic2550\
+
+Project Files:
+    main.c
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F2550.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    C:\Users\USER\OneDrive\CPA\Speck procedure\1.pic\pic2550\main (main)
+
+Compiler Settings:
+    Processor:      PIC18F2550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta

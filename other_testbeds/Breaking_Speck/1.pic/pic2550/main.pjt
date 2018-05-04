@@ -1,0 +1,25 @@
+[PROJECT]
+Target=C:\Users\USER\OneDrive\CPA\Speck procedure\1.pic\pic2550\main.hex
+Development_Mode=
+Processor_Text=PIC18F2550
+ToolSuite=CCS
+Processor=0x2550
+[C:\Users\USER\OneDrive\CPA\Speck procedure\1.pic\pic2550\]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Users\USER\OneDrive\CPA\Speck procedure\1.pic\pic2550\.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\Users\USER\OneDrive\CPA\Speck procedure\1.pic\pic2550\main
+[Opened Files]
+2=
+3=
+1=main.c

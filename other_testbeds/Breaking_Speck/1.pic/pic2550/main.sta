@@ -1,0 +1,60 @@
+
+ROM used: 2884 (9%)
+          2884 (9%) including unused fragments
+
+          1 Average locations per line
+          4 Average locations per statement
+
+RAM used: 99 (5%) at main() level
+          172 (8%) worst case
+
+Stack used: 3 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  423   228  32  main.c
+  409     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F2550.h
+ 1273   359  51  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+  409   121  17  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+ 2574   708 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   1   1             @delay_ms1
+0     60   1   8   165  4.5  copy
+0    368   6  20  1075 10.3  _shiftR
+0    398   7  20  1188 10.8  _shiftL
+0     78   1  10   238  5.5  _or
+0    144   2  13   505  9.4  _add
+0     78   1  10   238  5.5  _xor
+0     72   1  22   260  3.8  ROR
+0     72   1  22   260  3.8  ROL
+0    622  11  28  2228  5.8  encrypt
+0    118   2   2   983  4.9  convertdigit
+0     72   1   0             @goto11485
+0     66   1   1   589  2.4  setkey
+0    626  11  40  2373  8.4  MAIN
+0     66   1   2             @PRINTF_X_9600_31766_31767
+
+Program metrics:
+    Functions               12
+    Statements              708
+    Comments                911
+    Volume (V)              15190
+    Difficilty (D)          72.4
+    Effort to implement (E) 1099940
+    Time to implement (T)   16 hours, 58 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   51
+    Maintainability (MI)    107
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  2880  29884  
+
+
+
