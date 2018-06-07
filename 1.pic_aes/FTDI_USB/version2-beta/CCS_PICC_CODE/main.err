@@ -1,0 +1,13 @@
+>>> Warning 214 "main.c" Line 232(1,1): Operator precedance rules may not be as intended, use () to clarify
+>>> Warning 204 "main.c" Line 235(1,1): Condition always FALSE
+>>> Warning 203 "main.c" Line 711(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 767(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 797(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 842(0,1): Interrupts disabled during call to prevent re-entrancy:  (convertdigit)
+>>> Warning 216 "main.c" Line 842(0,1): Interrupts disabled during call to prevent re-entrancy:  (@PRINTF_X_9600_31766_31767)
+>>> Warning 216 "main.c" Line 842(0,1): Interrupts disabled during call to prevent re-entrancy:  (KeyExpansion)
+>>> Warning 216 "main.c" Line 842(0,1): Interrupts disabled during call to prevent re-entrancy:  (Cipher)
+>>> Warning 216 "main.c" Line 842(0,1): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 202 "main.c" Line 715(24,28): Variable never used:   temp
+      Memory usage:   ROM=14%      RAM=14% - 21%
+      0 Errors,  11 Warnings.

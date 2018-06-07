@@ -1,0 +1,194 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     @INTERRUPT_AREA
+01A     kbd_getc.kbd_call_count
+01B.0   kbd_getc.kbd_down
+01C     kbd_getc.last_key
+01D     kbd_getc.col
+01E-01F strtok.save
+020-023 _Randseed
+024-033 MAIN.in
+024-033 in
+034-043 MAIN.out
+034-043 out
+044-053 state
+054-103 RoundKey
+104-113 MAIN.key
+104-113 key
+114-134 MAIN.buffer
+135-136 MAIN.hex
+137     MAIN.i
+138     MAIN.temp
+139     MAIN.@SCRATCH1
+13A     MAIN.@SCRATCH2
+13B     MAIN.@SCRATCH3
+169     getkey.i
+16A     getkey.@SCRATCH1
+16B     getkey.@SCRATCH2
+16C     getkey.@SCRATCH3
+173-193 buffer
+194-195 hex
+196     keybyte
+197     i
+198     k
+199     temp
+19A     kbd_getc.kchar
+19A     KeyExpansion.i
+19A     Cipher.i
+19A     ext1_isr.@SCRATCH1
+19A     @PSTRINGC_9600_31766_31767.@SCRATCH1
+19B     KeyExpansion.j
+19B     kbd_getc.row
+19B     convertdigit.digit
+19B     Cipher.j
+19B     @delay_ms1.P1
+19B     ext1_isr.@SCRATCH2
+19B     @PSTRINGC_9600_31766_31767.@SCRATCH2
+19C     @PRINTF_X_9600_31766_31767.P1
+19C     Cipher.round
+19C-19F KeyExpansion.temp
+19C     convertdigit.value
+19C     ALL_ROWS.@SCRATCH1
+19C     kbd_getc.@SCRATCH1
+19D     AddRoundKey.round
+19D     @PRINTF_X_9600_31766_31767.P1
+19D     ShiftRows.temp
+19D     SubBytes.i
+19D     MixColumns.i
+19D     kbd_getc.@SCRATCH2
+19D     Cipher.@SCRATCH1
+19E     MixColumns.Tmp
+19E     AddRoundKey.i
+19E     SubBytes.j
+19E     Cipher.@SCRATCH2
+19F     MixColumns.Tm
+19F     AddRoundKey.j
+19F     SubBytes.@SCRATCH1
+19F     Cipher.@SCRATCH3
+1A0     MixColumns.t
+1A0     KeyExpansion.k
+1A0     AddRoundKey.@SCRATCH1
+1A0     SubBytes.@SCRATCH2
+1A0     Cipher.@SCRATCH4
+1A1     KeyExpansion.@SCRATCH1
+1A1     AddRoundKey.@SCRATCH2
+1A1     SubBytes.@SCRATCH3
+1A1     MixColumns.@SCRATCH1
+1A2     KeyExpansion.@SCRATCH2
+1A2     AddRoundKey.@SCRATCH3
+1A2     SubBytes.@SCRATCH4
+1A2     MixColumns.@SCRATCH2
+1A3     KeyExpansion.@SCRATCH3
+1A3     AddRoundKey.@SCRATCH4
+1A3     MixColumns.@SCRATCH3
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+02EE  @delay_ms1
+00AE  KEYS
+033A  kbd_init
+0340  ALL_ROWS
+037E  kbd_getc
+0482  @goto10078
+00CE  sbox
+01DE  Roundcon
+05D0  KeyExpansion
+0862  AddRoundKey
+08E0  SubBytes
+095E  ShiftRows
+09A0  MixColumns
+0B46  Cipher
+04A4  convertdigit
+0542  @goto11589
+0F58  getkey
+0C5A  ext1_isr
+0E88  @const415
+0318  @PSTRINGC_9600_31766_31767
+0EA0  @const421
+0ED0  @const423
+0F00  @const424
+058A  @PRINTF_X_9600_31766_31767
+0F16  @const429
+0F46  @const431
+0F92  MAIN
+0F92  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\USER\OneDrive\2016\iciafs\cryptotutorial\testbed\1.pic_aes\
+
+Project Files:
+    main.c
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F2550.h
+    kpd.c
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    C:\Users\USER\OneDrive\2016\iciafs\cryptotutorial\testbed\1.pic_aes\main (main)
+
+Compiler Settings:
+    Processor:      PIC18F2550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta

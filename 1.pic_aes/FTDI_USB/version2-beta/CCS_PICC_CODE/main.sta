@@ -1,0 +1,75 @@
+
+ROM used: 4550 (14%)
+          4550 (14%) including unused fragments
+
+          1 Average locations per line
+          5 Average locations per statement
+
+RAM used: 279 (14%) at main() level
+          420 (21%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  841   299  36  main.c
+  409     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F2550.h
+  126    54   6  kpd.c
+ 1273   359  43  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+  409   121  15  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+ 3118   833 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1             @delay_ms1
+0     32   0   0             @const69
+0      6   0   0    17  0.8  kbd_init
+0     62   1   1   125  3.0  ALL_ROWS
+0    260   3   4  1622  9.2  kbd_getc
+0     34   0   0             @goto10078
+0    272   3   0             @const364
+0    272   3   0             @const366
+0    658   7  10  3171 10.5  KeyExpansion
+0    126   1   7   298  5.6  AddRoundKey
+0    126   1   6   233  4.1  SubBytes
+0     66   1   1  1080  2.4  ShiftRows
+0    422   5   7  1483  7.0  MixColumns
+0    276   3   7  1004  6.8  Cipher
+0    158   2   2   983  4.9  convertdigit
+0     72   1   0             @goto11589
+0     58   1   4   114  3.4  getkey
+0    558   6   2  2018  8.1  ext1_isr
+0     24   0   0             @const415
+0     34   0   2             @PSTRINGC_9600_31766_31767
+0     48   1   0             @const421
+0     48   1   0             @const423
+0     22   0   0             @const424
+0     70   1   2             @PRINTF_X_9600_31766_31767
+0     48   1   0             @const429
+0     18   0   0             @const431
+0    568   6   3  1747  8.5  MAIN
+
+Program metrics:
+    Functions               13
+    Statements              833
+    Comments                1382
+    Volume (V)              20646
+    Difficilty (D)          74.8
+    Effort to implement (E) 1543294
+    Time to implement (T)   23 hours, 49 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   60
+    Maintainability (MI)    51
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07FFE  4380  28214  
+
+
+
